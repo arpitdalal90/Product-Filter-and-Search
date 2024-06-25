@@ -1,0 +1,74 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 1rem;
+}
+
+.search {
+    margin: 1em 0em;
+}
+
+.searchBar {
+    background-color: transparent;
+    width: 50%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.8em;
+}
+
+#searchButton {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #6759ff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    border: none;
+}
+
+.buttonVal{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+}
+
+.card {
+    padding: 2rem;
+}
+
+.IMG {
+    width: 149px;
+    height: 259px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
+
+.changeButtonColor {
+    background-color: rgb(242, 129, 129);
+    color: white;
+    border: none;
+}
+
+.noResults {
+    color: red;
+    font-size: 1rem;
+    visibility: hidden;
+}
